@@ -3,7 +3,7 @@ $(document).ready(function () {
         event.preventDefault();
         var formData = new FormData($("#loginForm")[0]);
         $.ajax({
-            url: `${domainUrl}loginForm`,
+            url: `https://shortzz.felixits.uz/loginForm`,
             type: "POST",
             data: formData,
             dataType: "json",
